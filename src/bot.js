@@ -2,11 +2,11 @@ import { Bot } from "grammy";
 import Groq from "groq-sdk";
 
 const groq = new Groq({
-  apiKey: process.env.GROQ_API_KEY || "your_groq_api_key",
+  apiKey: process.env.GROQ_API_KEY || "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",
 });
 
 const bot = new Bot(
-  process.env.TELEGRAM_BOT_TOKEN || "your_telegram_bot_token",
+  process.env.TELEGRAM_BOT_TOKEN || "5815567565:AAGdRjgvkSVv_aX90blgi1X8WNmpnJRu9ro",
 );
 
 async function getGroqResponse(query) {
